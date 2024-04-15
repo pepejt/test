@@ -8,7 +8,7 @@ div{
 /*modifica todo la clase msg con colores y demas*/
 .msg{
     color: chartreuse;
-    background-color: coral;
+    background-color: rgb(143, 68, 41);
     font-size: 48px;
     margin: 12px;
     padding: 12px;
