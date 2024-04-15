@@ -1,0 +1,29 @@
+/*cambio colordiv global*/
+div {
+    color: red;
+}
+#divMensaje{
+    color:blue;
+}
+.mensaje{
+    color: yellow !important;
+}
+.msg{
+    font-size: 48px;
+    background-color: black;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 130px;
+    width: 256px;
+    height: 256px;
+    margin-top: 30px;
+    padding-bottom: 54px;
+    border-left: 12px solid green;
+    
+}
+.msg:hover{
+    color: white;
+    background-color: blue;
+}
