@@ -1,0 +1,29 @@
+/*cambio de color div global*/
+div{
+    color: rgb(31, 31, 161);
+}
+#divMensaje{
+    color:brown;
+}
+/*modifica todo la clase msg con colores y demas*/
+.msg{
+    color: chartreuse;
+    background-color: coral;
+    font-size: 48px;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 250px; 
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    padding-bottom: 54px;
+    border-left: 12px solid yellow;
+
+}
+/*modifica el color al colocar el puntero sobre el div*/
+.msg:hover{
+    color: white;
+    background-color: blue;
+}
