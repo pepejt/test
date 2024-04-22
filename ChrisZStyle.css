@@ -1,9 +1,9 @@
 /*cambio de color div global*/
 div{
-    color: rgb(26, 26, 138);
+    color: rgb(16, 16, 90);
 }
 #divMensaje{
-    color:rgb(145, 30, 30);
+    color:rgb(119, 23, 23);
 }
 /*modifica todo la clase msg con colores y demas*/
 .msg{
