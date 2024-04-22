@@ -7,7 +7,7 @@ div {
 }
 .mensaje{
     color: chartreuse(253, 221, 14) !important;
-    font-size: 48px;
+    
 }
 .msg{
     font-size: 48px;
@@ -16,6 +16,8 @@ div {
     padding: 12px;
     text-align: center;
     border: 2px solid blue;
+    width: 256px;
+    height: 256px;
     margin-top: 30px;
     padding-bottom: 54px;
     border-left: 12px solid rgb(4, 255, 0);
