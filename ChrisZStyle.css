@@ -8,7 +8,7 @@ div{
 /*modifica todo la clase msg con colores y demas*/
 .msg{
     color: chartreuse;
-    background-color: rgb(119, 56, 33);
+    background-color: rgb(136, 62, 36);
     font-size: 48px;
     margin: 12px;
     padding: 12px;
@@ -20,6 +20,7 @@ div{
     margin-top: 30px;
     padding-bottom: 54px;
     border-left: 12px solid yellow;
+    cursor: pointer;
 
 }
 /*modifica el color al colocar el puntero sobre el div*/
