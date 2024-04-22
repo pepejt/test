@@ -1,9 +1,10 @@
-/*cambio colordiv global*/
+<<<<<<< HEAD
+/*Cambio color Div Global*/
 div {
-    color: red;
+    color: rgb(255, 255, 255);
 }
 #divMensaje{
-    color:blue;
+    color:rgb(38, 0, 255);
 }
 .mensaje{
     color: yellow !important;
@@ -14,16 +15,18 @@ div {
     margin: 12px;
     padding: 12px;
     text-align: center;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 130px;
     width: 256px;
     height: 256px;
     margin-top: 30px;
     padding-bottom: 54px;
-    border-left: 12px solid green;
+    border-left: 12px solid rgb(138, 138, 138);
     
 }
 .msg:hover{
     color: white;
-    background-color: blue;
+    background-color: rgb(116, 108, 238);
 }
+=======
+>>>>>>> f63dca566ff6eda75cbf092f8794db2424a155c1
