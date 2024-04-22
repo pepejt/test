@@ -15,13 +15,12 @@ div {
     padding: 12px;
     text-align: center;
     border: 2px solid blue;
-    border-radius: 130px;
-    width: 256px;
-    height: 256px;
+    border-radius: 10px;
+    width: 256px;    
     margin-top: 30px;
     padding-bottom: 54px;
     border-left: 12px solid green;
-    
+    cursor: pointer;
 }
 .msg:hover{
     color: white;
