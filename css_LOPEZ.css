@@ -12,20 +12,22 @@ div{
 }
 .msg{
 font-size: 48px;
-background-color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0.856);
 margin: 12px;
 padding: 12px;
 text-align: center;
-border: 2px solid hsl(133, 98%, 52%) ;
+border: 2px solid hsl(219, 93%, 40%) ;
 border-radius: 100px;
 width: 100px;
 height: 100px;
 margin-top: 30px;
 padding-bottom: 54px;
-border-left: 16px solid hsl(266, 89%, 50%);
+border-left: 16px solid hsl(118, 89%, 50%);
+cursor:pointer
+
 }
 
 .msg:hover{
     color: white;
-    background-color:  #0010f5;
+    background-color:  #b85add;
 }
