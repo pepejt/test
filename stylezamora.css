@@ -1,0 +1,52 @@
+<<<<<<< HEAD
+/*cambio color div global*/
+div {
+    color: #ffb300;
+}
+#divMensaje{
+    color: rgb(255, 60, 0);
+}
+.mensaje{
+    color: chartreuse(253, 221, 14) !important;
+    font-size: 48px;
+=======
+/*cambio colordiv global*/
+div {
+    color: red;
+}
+#divMensaje{
+    color:blue;
+}
+.mensaje{
+    color: yellow !important;
+>>>>>>> d06dc1cb38b8519d6abebf39790ad7f987d31392
+}
+.msg{
+    font-size: 48px;
+    background-color: black;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid blue;
+<<<<<<< HEAD
+    margin-top: 30px;
+    padding-bottom: 54px;
+    border-left: 12px solid rgb(4, 255, 0);
+}
+.msg:hover{
+    color: white;
+    background-color: aqua;
+}
+=======
+    border-radius: 130px;
+    width: 256px;
+    height: 256px;
+    margin-top: 30px;
+    padding-bottom: 54px;
+    border-left: 12px solid green;
+}
+.msg:hover{
+    color: white;
+    background-color: blue;
+}
+>>>>>>> d06dc1cb38b8519d6abebf39790ad7f987d31392
