@@ -1,0 +1,35 @@
+.boton{
+    background-color: blueviolet;
+    color: beige;
+    width: 128px;
+    padding: 12px 6px 12px 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid orange;
+}
+.boton:hover{
+    border-radius: 8px;
+    transition: 2s ease-in-out;
+}
+table{
+    border: 1px solid black;
+    margin: 12px 0px 0px 0px;
+    border-spacing: 0px;
+    
+}
+th{
+    background-color: blueviolet;
+}
+th:hover{
+    background-color: darkgrey;
+    transition: 1s ease-in-out;
+}
+img{
+    width: 200px;
+    border-radius: 20%;
+border: 2px dashed black;
+    padding: 7px 7px 7px 7px;
+}
+a img {
+border: 2px dashed navy;
+}
