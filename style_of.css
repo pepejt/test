@@ -1,0 +1,37 @@
+    .boton {
+        background-color: #007acc;
+        color: white;
+        width: 128px;
+        padding: 12px 6px 12px 6px;
+        text-align: center;
+        cursor: pointer;
+        border: 1px  dashed blue;
+    }
+    .boton:hover{
+        border-radius: 18px;   
+        transition: 1s ease-in-out;
+    }
+    table{
+    border: 1px solid #007acc ;
+    margin: 12px 0px 0px 0px;
+    border-spacing: 0px;
+    }
+    th{
+        background-color: #007acc;
+        color: white;
+    }
+    /*Animacion*/
+    th:hover{
+        background-color: green;
+        transition: 1s ease-in-out;
+    }
+    img{
+        width: 128px;
+        border-radius: 40%;
+    }
+    a img{
+        border: 1px solid  black ;
+        border-radius: 0%;
+        width: 50px;
+    }
+        
