@@ -1,0 +1,40 @@
+.boton{
+    background-color: rgb(40, 40, 240);
+    width: 128px;
+    padding: 12px 6px 12px 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px dashed color rgb(40, 30, 200);
+
+}
+.boton:hover{
+    border-radius: 20px;
+    transition: 2s ease-in-out;
+
+}
+
+table{
+    border: 1px solid rgb(40, 40, 240);
+    margin: 12px 0px 0px 0px ;
+    border-spacing: 0px;
+
+}
+
+th{
+    background-color: rgb(40, 30, 200);
+    color: white;
+
+}
+th:hover{
+    background-color: green;
+    transition: 2s ease-in-out;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+a img{
+    border: 5px dashed green;
+    
+}
