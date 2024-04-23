@@ -1,0 +1,34 @@
+.boton{
+    background-color: aquamarine;
+    width: 125px;
+    padding: 12px 6px 12px 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid olive;
+   
+}
+.boton:hover{
+border-radius: 15px;
+transition: 1s ease-in-out;
+}
+table{
+    border: 1px solid olive;
+    margin-top: 12px;
+    border-spacing: 0px;
+}
+th{
+background-color: aquamarine;
+
+}
+th:hover{
+   background-color: bisque; 
+   transition: 1s ease-in-out;
+   cursor: pointer;
+}
+img {
+    width: 150px;
+    border-radius: 20px;
+}
+a img{
+    border: 1px dashed red;
+}
