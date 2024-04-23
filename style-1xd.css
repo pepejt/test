@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*Cambio color div global*/
 div{
     color : #558d45;
@@ -16,9 +15,8 @@ div{
     padding: 12px;
     text-align: center;
     border: 2px solid blue;
-    border-radius: 138px;
+    /*border-radius: 138px;*/
     width: 256px;
-    height: 256px;
     border-left: 12px solid green;
     cursor: pointer;
 }
