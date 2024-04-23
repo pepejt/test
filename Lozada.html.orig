@@ -1,0 +1,20 @@
+dsadsa
+<<<<<<< HEAD
+hola mundo
+=======
+sdsads
+>>>>>>> 5451f86427563b9a5425a4246ce68dc5ed7b64cf
+<html>
+<head>
+    <title>Prueba 1</title>
+    <link rel="stylesheet" href="estiloAL.css" type="text/css">
+</head>
+<body>
+    <div class="msg">Inicio</div>
+    <div class="msg">Inicio 2</div>
+<div id="divMensaje" >Hola Mundo</div>
+<script>
+    document.getElementById("divMensaje").innerHTML = "Hola Mundo 2";
+</script>
+</body>
+</html>
