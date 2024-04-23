@@ -1,0 +1,38 @@
+.boton{
+    background-color: rgb(20, 216, 151);
+    width: 128px;
+    padding: 12px 6px 3px 6px; 
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.boton:hover{
+border-radius: 10px;
+transition: 1s ease-in-out;
+}
+
+table{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 12px 0px 0px 0px;
+    border-spacing: 0px;
+}
+
+th{
+    background-color: rgb(20, 216, 151);
+}
+
+th:hover{
+    color: white;
+    background-color: rgb(169, 157, 201);
+    transition: 1s ease-in-out;
+}
+img{
+    width: 128px;
+    border-radius: 50%;
+}
+
+a img{
+    border: 1px dashed black;
+    width: 50px;
+}
