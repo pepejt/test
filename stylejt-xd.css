@@ -1,0 +1,31 @@
+.boton{
+    background-color: blue;
+    color: white;
+    width: 128px;
+    padding: 12px 6px 3px 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px dashed green;
+}
+.boton:hover{
+    border-radius: 18px;
+    transition: 2s ease-in-out;
+}
+table{border: 1px solid black;
+    margin: 12px 0px 0px 0px;
+    border-spacing: 0px;
+}
+th{
+    background-color: rgb(96, 96, 141);
+}
+th:hover{
+    background-color: greenyellow;
+}
+img{
+    width: 256px;
+    border-radius: 50%;
+}
+a img{
+    border: 1px dashed blueviolet;
+
+}
