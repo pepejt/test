@@ -34,5 +34,17 @@ img{
 
 a img{
     border: 1px dashed black;
-    width: 50px;
+    width: 128px;
+}
+
+.error{
+    background-color: rgb(240, 10, 10);
+    padding: 12px;
+    border: 2px dashed red;
+}
+
+.exito{
+    background-color: rgb(33, 185, 33);
+    padding: 12px;
+    border: 2px dashed green;
 }
