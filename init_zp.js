@@ -17,6 +17,7 @@ function calcularImpuesto(valor){
 var txtValor = document.getElementById("txtValor");
 var btnAceptar = document.getElementById("btnAceptar");
 var divResultado = document.getElementById("divResultado");
+var imgLogo = document.getElementById("imgLogo");
 btnAceptar.onclick = function(){
     var valor = txtValor.value;
     if (valor === ""){
@@ -25,5 +26,11 @@ valor = 0;
         valor = valor*1;
     }
     var resultado = calcularImpuesto(valor);
+    if(resultado>100){
+        divResultado.className = "correcto";
+        imgLogo.src = "https://img.freepik.com/psd-gratis/nube-png-aislada-fondo-transparente_191095-18049.jpg?size=626&ext=jpg";
+    }else{
+        divResultado.className = "error";
+    }
     divResultado.innerHTML = resultado;
 }
