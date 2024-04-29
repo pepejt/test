@@ -38,3 +38,13 @@ a img{
     border: 5px dashed green;
     
 }
+.error{
+    background-color: rgb(224, 64, 64);
+    padding: 12px;
+    border: 2px dashed red;
+}
+.exito{
+    background-color: rgb(71, 206, 71);
+    padding: 12px;
+    border: 2px dashed green;
+}
