@@ -14,7 +14,8 @@ function calcularImpuesto(valor){
 
 var txtValor = document.getElementById('txtValor');
 var btnAceptar = document.getElementById('btnAceptar');
-var divResultado = document.getElementById('divResultado')
+var divResultado = document.getElementById('divResultado');
+var imgLogo = document.getElementById('imgLogo');
 
 btnAceptar.onclick = function(){
     var valor = txtValor.value;
@@ -24,5 +25,11 @@ btnAceptar.onclick = function(){
         valor = valor * 1;
     }
     var resultado = calcularImpuesto(valor)
+    if (resultado > 100){
+        divResultado.className = "excito";
+        imgLogo.src = "https://i.ytimg.com/vi/dtV0Z0ypW4I/maxresdefault.jpg"
+    }else{
+        divResultado.className = "error";
+    }
     divResultado.innerHTML = resultado;
 }

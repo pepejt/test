@@ -44,3 +44,15 @@ a img{
     border: 1px solid black;
     
 }
+
+.error{
+    background-color: rgb(238, 170, 170);
+    padding: 12px;
+    border: 2px solid red;
+}
+
+.excito{
+    background-color: rgb(109, 197, 109);
+    padding: 12px;
+    border: 2px solid rgb(24, 235, 24);
+}
