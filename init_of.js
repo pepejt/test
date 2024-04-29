@@ -18,7 +18,9 @@ function calcularImpuesto(valor){
 var txtValor = document.getElementById("txtValor");
 var btnAceptar = document.getElementById("btnAceptar");
 var divResultado =  document.getElementById("divResultado");
+var imgLogo =  document.getElementById("imgLogo");
 btnAceptar.onclick =  function (){
+
     var valor = txtValor.value;
     if(valor === ""){
         valor = 0;
@@ -26,5 +28,11 @@ btnAceptar.onclick =  function (){
         valor = valor*1;
     }
     var resultado = calcularImpuesto(valor);
+    if(resultado > 100){
+        divResultado.className = "exito";
+        imgLogo.src = "https://upload.wikimedia.org/wikipedia/commons/b/b4/Escudo_BSC.png" ;
+    }else{
+        divResultado.className = "error";
+    }
     divResultado.innerHTML = resultado+ " ";
 }

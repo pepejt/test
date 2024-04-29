@@ -1,3 +1,4 @@
+    /* con el punto llama a un tipe de clase*/
     .boton {
         background-color: #007acc;
         color: white;
@@ -7,10 +8,12 @@
         cursor: pointer;
         border: 1px  dashed blue;
     }
+        /* con el punto llama a un tipe de clase y con hover para darle una transicion */
     .boton:hover{
         border-radius: 18px;   
         transition: 1s ease-in-out;
     }
+    /* Llaman  a toda la table */
     table{
     border: 1px solid #007acc ;
     margin: 12px 0px 0px 0px;
@@ -33,5 +36,15 @@
         border: 1px solid  black ;
         border-radius: 0%;
         width: 50px;
+    }
+    .error{
+        background-color: rgb(233, 122, 122);
+        padding: 12px ;
+        border: 2px dashed red ;
+    }
+    .exito{
+        background-color:   rgb(114, 212, 130) ;
+        padding: 12px ;
+        border: 2px dashed green ;
     }
         
