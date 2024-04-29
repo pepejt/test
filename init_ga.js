@@ -13,7 +13,8 @@ calcularImpuesto(100);*/
 
 var txtvalor = document.getElementById('txtvalor');
 var btnAceptar = document.getElementById('btnAceptar');
-var divresultado  = document.getElementById('divresultado')
+var divresultado  = document.getElementById('divresultado');
+var imglogo  = document.getElementById('imglogo');
 btnAceptar.onclick=function(){
     var valor = txtvalor.value;
     if(valor === ""){
@@ -22,5 +23,12 @@ btnAceptar.onclick=function(){
         valor = valor*1;
     }
     var resultado=calcularImpuesto(valor);
+
+    if(resultado>100){
+        divresultado.className= "exito";
+         
+    }else{
+        divresultado.className= "error";
+    }
     divresultado.innerHTML =resultado;
 }
