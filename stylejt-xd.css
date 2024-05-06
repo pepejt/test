@@ -27,5 +27,14 @@ img{
 }
 a img{
     border: 1px dashed blueviolet;
-
+}
+.error{
+    background-color: rgb(167, 83, 83);
+    padding: 12px;
+    border: 2px dashed red;
+}
+.exito{
+    background-color: rgb(86, 155, 65);
+    padding: 12px;
+    border: 2px dashed green;
 }
